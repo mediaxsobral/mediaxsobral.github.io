@@ -1,2 +1,2 @@
-# mediaxsobral.github.io
+# https://mediaxsobral.github.io
 Site do MEDIAx Sobral
