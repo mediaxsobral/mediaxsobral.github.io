@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="O MEDIAx é um projeto que tem o objetivo de fomentar os conhecimentos e habilidades dos seus participantes, proporcionando um contato direto e prático com as temáticas das tencologias aplicadas as disciplinas da matriz curricular de ensino">
+    
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/animatescroll.js"></script>
+    
+    
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/png" href="img/icons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/icons/favicon-48x48.png" sizes="48x48">
+    <link rel="shortcut icon" href="img/icons/favicon.ico">
+    <link rel="manifest" href="#">
+    <!-- Ajeitar isso -->
+
+
+    <!-- Compartilhamento no Facebook -->
+    <meta property="og:url" content="//#">
+    <!-- Não tem url ainda -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="MEDIAx Sobral">
+    <meta property="og:image" content="//#">
+    <!-- Tem que alterar antes de cada evento-->
+    <meta property="og:description" content="A Prefeitura Municipal de Sobral, através da Secretaria da Educação de Sobral e a Universidade Federal do Ceará (UFC), promoverão dia 20/05 (sábado), das 8h00 às 21h no Palácio de Ciências e Línguas Estrangeiras, o I MEDIA EXPERIENCE EDUCATION (MEDIAx - Sobral).">
+    <meta property="og:site_name" content="MEDIAx Sobral">
+    <meta property="og:locale" content="pt_BR">
+
+    <title>MEDIAx Sobral</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav_container">
+            <ul class="menu">
+                <li class="btn_menu" id="btn_inscrevase"><a href="#" target="_blank">INSCREVA-SE</a></li>
+                <li class="btn_menu" id="data">08.07</li> <!-- Alterar antes de cada evento -->
+                <li class="btn_menu" id="proximo">PRÓXIMO<br>MEDIAx:</li>
+                <li>
+                    <a href="#" onclick="$('#anchor_inicio').animatescroll();"><img src="img/logo.svg" class="logo"></a>
+                </li>
+                <li class="btn_menu" id="contato"><a href="#" onclick="$('#anchor_contato').animatescroll();" class="mn" >CONTATO</a></li>
+                <li class="btn_menu" id="programacao"><a href="#" onclick="$('#anchor_programacao').animatescroll();">PROGRAMAÇÃO</a></li>
+                <li class="btn_menu" id="o_que_e"><a href="#" onclick="$('#anchor_o_que_e').animatescroll();">O QUE É?</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="corpo">
+        <section class="area1" id="anchor_inicio">
+            <a><img src="img/fundo.png"></a>
+            <div class="filtro"></div>
+            <div class="conteudo_inicio">
+                <h1>MEDIA EDUCATION EXPERIENCE</h1>
+                <span class="btn_area1"><a href="#" target="_blank">INSCREVA-SE</a></span> <!-- Falta a URL do Botão -->
+                <span class="btn_area1" id="o_q_e"><a href="#" onclick="$('#anchor_o_que_e').animatescroll();">O QUE É?</a></span>
+            </div>            
+        </section>
+        
+        <section class="area2" id="anchor_o_que_e">
+            
+            <div id="titulo">
+                <h2>MEDIA<br>EDUCATION<br>EXPERIENCE</h2>
+            </div>    
+            <div id="texto1">
+                <p>O MEDIAx é um projeto que tem o objetivo de fomentar os conhecimentos e habilidades dos seus participantes, proporcionando um contato direto e prático com as temáticas das tencologias aplicadas as disciplinas da matriz curricular de ensino.</p>
+            </div>
+            <div class="flickr">
+                <h2>EVENTOS ANTERIORES</h2>
+
+                <object width="400" height="300"> <param name="flashvars" value="offsite=true&lang=pt-br&page_show_url=%2Fphotos%2F147985301%40N02%2Fsets%2F72157682236500350%2Fshow%2F&page_show_back_url=%2Fphotos%2F147985301%40N02%2Fsets%2F72157682236500350%2F&set_id=72157682236500350&jump_to="></param> <param name="movie" value="https://www.flickr.com/apps/slideshow/show.swf?v=261948265"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="https://www.flickr.com/apps/slideshow/show.swf?v=261948265" allowFullScreen="true" flashvars="offsite=true&lang=pt-br&page_show_url=%2Fphotos%2F147985301%40N02%2Fsets%2F72157682236500350%2Fshow%2F&page_show_back_url=%2Fphotos%2F147985301%40N02%2Fsets%2F72157682236500350%2F&set_id=72157682236500350&jump_to=" width="400" height="300"></embed></object>
+            </div>
+        </section>
+        
+        <section class="area3" id="anchor_programacao">
+            <div>
+                <h2>PROGRAMAÇÃO</h2>
+                <h2>EM BREVE</h2>
+            </div>
+        </section>
+        
+        <section class="area4">
+            <div>
+                <h2>LOCAL</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.556429039927!2d-40.3537626858247!3d-3.687871497316709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7eac6e15734463d%3A0xd7eee6320bf6e1c6!2sPal%C3%A1cio+de+Ci%C3%AAncias+e+Linguas+Estrangeiras!5e0!3m2!1spt-BR!2sbr!4v1496341201498" frameborder="0" style="border:0" id="mapa"></iframe>
+            </div>
+        </section>
+        
+        <section class="area5" id="anchor_contato">
+            <div>
+                <h2>CONTATO</h2>
+                <p>
+                    Fale com a gente por e-mail em <a href="https://accounts.google.com" target="_blank">mediax.seducsobral@gmail.com</a> e através do <a href="https://www.facebook.com/mediaxsobral/" target="_blank">Facebook</a> e <a href="https://www.instagram.com/mediaxsobral/" target="_blank">Instagram</a>.
+                </p>
+            </div>
+        </section>
+        
+        <section class="area6">
+            <div>
+                <h2>PARCEIROS</h2>
+                <img src="img/parceiros/seduc.svg" class="logos">
+                <img src="img/parceiros/ufc.svg" class="logos">
+                <img src="img/parceiros/Microlins%20Horizontal.png" class="logos">
+                
+            </div>
+        </section>
+        <footer class="rodape">
+            <p>
+                <small>
+                    2017 - Instituto UFC Virtual - Universidade Federal do Ceará - Prefeitura de Sobral 
+                </small>
+            </p>
+            <p>
+                <small>
+                    Desenvolvido por<br>
+                    Designers: <b>Gabriel Leal - Rister Saulo - Eduardo Rodrigues</b><br>
+                    Devs: <b>Juliano Holanda - Remerson Carvalho</b>
+                </small>
+            </p>            
+        </footer>
+    </main>
+
+   
+</body>
+
+</html>
