@@ -68,12 +68,13 @@
                 <span class="btn_area1"><a href="#" target="_blank">INSCREVA-SE</a></span>
                 <!-- Falta a URL do Botão -->
                 <span class="btn_area1" id="o_q_e"><a href="#" onclick="$('#anchor_o_que_e').animatescroll();">O QUE É?</a></span>
-            </div>
-        </section>
+            </div>             
+        </section>       
+       
 
-        <section class="area2" id="anchor_o_que_e">
-
-            <div id="titulo">
+        <section class="area2">
+            <div class="anchor" id="anchor_o_que_e"></div>
+            <div id="titulo" >
                 <h2>MEDIA<br>EDUCATION<br>EXPERIENCE</h2>
             </div>
             <div id="texto1">
@@ -86,7 +87,8 @@
             </div>
         </section>
 
-        <section class="area3" id="anchor_programacao">
+        <section class="area3" >
+           <div class="anchor" id="anchor_programacao"></div>
             <div>
                 <h2>PROGRAMAÇÃO</h2>
                 <h2>EM BREVE</h2>
@@ -132,7 +134,7 @@
                             title: 'Palácio de Ciências e Linguas Estrangeiras'
                         });
                         marker.addListener('click', function() {
-                            infowindow.open(map, marker);
+                            infowindow.open(map, marker);                            
                         });
                     }
 
@@ -144,7 +146,8 @@
             </div>
         </section>
 
-        <section class="area5" id="anchor_contato">
+        <section class="area5" >
+            <div class="anchor" id="anchor_contato"></div>
             <div>
                 <h2>CONTATO</h2>
                 <p>
@@ -156,9 +159,7 @@
         <section class="area6">
             <div>
                 <h2>PARCEIROS</h2>
-                <img src="img/parceiros/seduc.svg" class="logos">
-
-                <img src="img/parceiros/Microlins%20Horizontal.png" class="logos">
+                <img src="img/parceiros/seduc.svg" class="logos">              
 
             </div>
         </section>

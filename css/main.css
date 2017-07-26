@@ -77,6 +77,15 @@ span {
 
 /*Classes*/
 
+.anchor {
+    position: relative;
+    top: -4rem;
+    left: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden
+}
+
 .corpo{
     width: 100%;
     height: 1000px;
@@ -163,8 +172,7 @@ span {
     text-decoration: inherit;
 }
 
-.area2 {
-    padding-top: 4rem;
+.area2 {    
     position: relative;
     width: 100%;
     height: auto;
@@ -192,8 +200,7 @@ span {
     padding-top: 2rem;
 }
 
-.area3{   
-    padding-top: 4rem;
+.area3{       
     width: 100%;
     height: auto;
     overflow: hidden;
@@ -207,8 +214,7 @@ span {
     text-align: center;
 }
 
-.area4{
-    padding-top: 4rem;
+.area4{    
     width: 100%;
     height: auto;
     overflow: hidden; 
@@ -222,8 +228,8 @@ span {
     text-align: center;
 }
 
-.area5{
-    padding-top: 4rem;
+.area5{ 
+    padding-bottom: 7rem;
     width: 100%;
     height: auto;
     overflow: hidden; 
@@ -257,12 +263,11 @@ span {
     text-align: center;
 }
 
-.area6{
-    padding-top: 4rem;
+.area6{    
     padding-bottom: 4rem;
     text-align: center;
     width: 100%;
-    height: 100vh;
+    height: auto;
     overflow: hidden; 
     background-color: #F08A4A;
 }
