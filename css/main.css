@@ -12,7 +12,6 @@
 }
 
 
-
 /*Configuraçoes Basicas*/
 
 * {
@@ -45,21 +44,15 @@ header nav {
     left: 0;
 }
 
-
 header nav a {
     color: inherit;
     text-decoration: inherit;
 }
 
-
-
-
 header nav ul {
     display: block;
     list-style-type: disc;
 }
-
-
 
 h1 {
     font-size: 3rem;
@@ -69,10 +62,6 @@ span {
     color: #ffffff;
     font-family: Nunito Semibold, Sans-serif;
 }
-
-
-
-
 
 
 /*Classes*/
@@ -86,7 +75,7 @@ span {
     overflow: hidden
 }
 
-.corpo{
+.corpo {
     width: 100%;
     height: 1000px;
 }
@@ -131,7 +120,7 @@ span {
 
 .filtro {
     position: absolute;
-    z-index: 1;   
+    z-index: 1;
     width: 100%;
     height: 100vh;
     background-color: rgba(0, 177, 234, 0.09);
@@ -172,7 +161,7 @@ span {
     text-decoration: inherit;
 }
 
-.area2 {    
+.area2 {
     position: relative;
     width: 100%;
     height: auto;
@@ -180,113 +169,109 @@ span {
     background-color: #ffffff;
 }
 
-
-
-
-.flickr{
+.flickr {
     position: relative;
     text-align: center;
     width: 100%;
     height: auto;
-    overflow: hidden;    
+    overflow: hidden;
     overflow: hidden;
     padding-bottom: 5rem;
 }
 
-.flickr h2{
-    font-family: Nunito Sans,sans-serif;
-    color:#00D364;
+.flickr h2 {
+    font-family: Nunito Sans, sans-serif;
+    color: #00D364;
     font-weight: 800;
     padding-top: 2rem;
 }
 
-.area3{       
+.area3 {
     width: 100%;
     height: auto;
     overflow: hidden;
-    background-color: #000000; 
+    background-color: #000000;
 }
 
-.area3 h2{
-    font-family: Nunito Sans,sans-serif;
+.area3 h2 {
+    font-family: Nunito Sans, sans-serif;
     color: #ffffff;
-    font-weight: 800;    
+    font-weight: 800;
     text-align: center;
 }
 
-.area4{    
+.area4 {
     width: 100%;
     height: auto;
-    overflow: hidden; 
-    
+    overflow: hidden;
 }
 
-.area4 h2{
-    font-family: Nunito Sans,sans-serif;
+.area4 h2 {
+    font-family: Nunito Sans, sans-serif;
     color: #000000;
-    font-weight: 800;    
+    font-weight: 800;
     text-align: center;
 }
 
-.area5{ 
+.area5 {
     padding-bottom: 7rem;
     width: 100%;
     height: auto;
-    overflow: hidden; 
+    overflow: hidden;
     background-color: #E8574A;
 }
 
-.area5 h2{
-    font-family: Nunito Sans,sans-serif;
+.area5 h2 {
+    font-family: Nunito Sans, sans-serif;
     color: #ffffff;
-    font-weight: 800;    
+    font-weight: 800;
     text-align: center;
 }
 
-.area5 p{
-    font-family: Nunito,sans-serif;
+.area5 p {
+    font-family: Nunito, sans-serif;
     color: #ffffff;
     text-align: center;
 }
 
-.area5 p a{
-    font-family: Nunito Semibold,sans-serif;
+.area5 p a {
+    font-family: Nunito Semibold, sans-serif;
     color: #ffffff;
-    font-weight: 1000;    
+    font-weight: 1000;
     text-align: center;
 }
 
-.area5 p a:hover{
-    font-family: Nunito Semibold,sans-serif;
+.area5 p a:hover {
+    font-family: Nunito Semibold, sans-serif;
     color: #00B1EA;
-    font-weight: 1000;    
+    font-weight: 1000;
     text-align: center;
 }
 
-.area6{    
+.area6 {
     padding-bottom: 4rem;
     text-align: center;
     width: 100%;
     height: auto;
-    overflow: hidden; 
+    overflow: hidden;
     background-color: #F08A4A;
 }
 
-.area6 h2{
-    font-family: Nunito Sans,sans-serif;
+.area6 h2 {
+    font-family: Nunito Sans, sans-serif;
     color: #ffffff;
-    font-weight: 800;    
+    font-weight: 800;
     text-align: center;
 }
 
-.logos{  
-    position: relative;    
+.logos {
+    position: relative;
     padding: 1rem;
-    width: 15rem;     
-    display: inline-block;      
+    width: 15rem;
+    display: inline-block;
 }
 
-.rodape{
+.rodape {
     padding: 1rem;
     text-align: center;
     font-family: Nunito Light, sans-serif;
@@ -294,14 +279,14 @@ span {
     color: #ffffff;
 }
 
-.active
-{
-    background-color:green;
+.active {
+    background-color: green;
 }
 
 
-/*Ids*/;
+/*Ids*/
 
+;
 #btn_inscrevase {
     display: inline-block;
     margin-top: 1%;
@@ -354,34 +339,191 @@ span {
     padding: .5rem 1.5rem .5rem 1.5rem;
 }
 
-#titulo{
+#titulo {
     margin-top: -.3rem;
     width: 49%;
     position: relative;
     float: left;
     text-align: right;
     font-family: Nunito Sans, sans-serif;
-    color:#00D364;    
-       
+    color: #00D364;
 }
 
-#titulo h2{
-   font-weight: 900; 
+#titulo h2 {
+    font-weight: 900;
 }
 
-#texto1{
+#texto1 {
     width: 48%;
     position: relative;
     float: right;
     text-align: left;
     font-family: Nunito Regular, sans-serif;
-    color:#00D364;    
+    color: #00D364;
     padding-right: 5%;
 }
 
-#mapa{
+#mapa {
     height: 400px;
     width: 100%;
     background-color: #ffffff;
 }
 
+
+/* Media Queries */
+
+@media only screen and (max-width: 1024px) {
+    .anchor {
+        top: -3rem;
+    }
+}
+
+@media only screen and (max-width: 899px) {
+    .anchor {
+        top: -3rem;
+    }
+    .logo {
+        width: 10%;
+        height: 10%;
+    }
+    #data {
+        font-size: 1em;
+    }
+    .btn_menu {
+        font-size: .8em;
+    }
+    #data {
+        padding-top: 1.5%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .anchor {
+        top: -3rem;
+    }
+    .logo {
+        width: 12%;
+        height: 12%;
+    }
+    #data {
+        font-size: 1em;
+    }
+    .btn_menu {
+        font-size: .8em;
+    }
+    .menu{
+        margin-right: -5%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .anchor {
+        top: -2rem;
+    }
+    .logo {
+        width: 22%;
+        height: 22%;
+        margin-left: -10%;
+        padding-right: 10px;
+        padding-bottom: 4px;
+    }
+    #data {
+        font-size: .7em;
+        padding-right: -3px;
+    }
+    .btn_menu {
+        font-size: .5em;
+        margin-right: -1%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .menu{
+        margin-right: -10%;
+    }
+    .area1 img {
+        width: 100%;
+        height: 90%;
+    }
+    .filtro {
+        width: 100%;
+        height: 90%;
+    }
+    .conteudo_inicio h1 {
+        font-size: 2em;
+        padding-top: 1em;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .anchor {
+        top: -2rem;
+    }
+    .logo {
+        width: 22%;
+        height: 22%;
+        margin-left: -10%;
+        padding-right: 10px;
+        padding-bottom: 4px;
+    }
+    #data {
+        font-size: .7em;
+        padding-right: -3px;
+    }
+    .btn_menu {
+        font-size: .455em;
+        margin-right: -1%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .menu{
+        margin-right: -14%;
+    }
+    .area1 img {
+        width: 100%;
+        height: 90%;
+    }
+    .filtro {
+        width: 100%;
+        height: 90%;
+    }
+    .conteudo_inicio h1 {
+        font-size: 1.5em;
+        padding-top: 3em;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .anchor {
+        top: -2rem;
+    }
+    .logo {
+        width: 22%;
+        height: 22%;
+        margin-left: -10%;
+        padding-right: 10px;
+        padding-bottom: 4px;
+    }
+    #data {
+        font-size: .6em;
+        padding-right: -3px;
+    }
+    .btn_menu {
+        font-size: .355em;        
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .menu{
+        margin-right: -17%;
+    }
+    .area1 img {
+        width: 100%;
+        height: 90%;
+    }
+    .filtro {
+        width: 100%;
+        height: 90%;
+    }
+    .conteudo_inicio h1 {
+        font-size: 1.5em;
+        padding-top: 3em;
+    }
+}
